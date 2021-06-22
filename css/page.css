@@ -1,0 +1,147 @@
+ul {
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul li {
+    margin-bottom: 5px;
+}
+h1.mbr-section-title, h3.mbr-section-title, h4.block-title, h5.block-title, p.text-column, h5.card-title, p.text-btn {
+    color: #FFFFFF;
+}
+p {
+    padding: 10px 0;
+}
+.site-main {
+    max-width: 760px;
+    margin: 0 auto;
+}
+.site-main p {
+    font-family: inherit;
+    font-weight: 300;
+}
+#content {
+    padding-top: 100px;
+}
+.post-container {
+    display: flex;
+}
+.post-item-content {
+    flex: 0 0 80%;
+    padding: 20px 20px 0 0;
+}
+.post-sitebar {
+    padding: 50px 0 0 0;
+}
+.post-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.post-meta {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+.post-tag > ul > li > a {
+    font-size: 12px;
+}
+.post-content {
+    padding: 10px 5px;
+}
+.content-area {
+    display: flex;
+}
+.form-calc {
+    width: 315px;
+    border: 1px solid #E0E0E0;
+    height: max-content;
+}
+.price-order-btn a {
+    padding: 12px 15px !important;
+}
+.form-calc {
+    height: fit-content;
+}
+.post-date {
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a3a3a3;
+    font-family: inherit;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+/*latest post*/
+.latest-post-blog {
+    max-width: 760px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+.latest-post-title {
+    text-align: center;
+    font-size: 38px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 90px;
+}
+.latest-post-name {
+    color: #333333;
+    font-size: 24px;
+    line-height: 1.35;
+    font-family: inherit;
+    font-weight: 600;
+}
+.latest-post-excerpt {
+    color: #333333;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.55;
+    font-family: inherit;
+    font-weight: 300;
+}
+.latest-post-item {
+    padding: 25px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.latest-post-item:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+/**/
+@media (max-width: 767px) {
+    #content {
+        padding-top: 40px;
+    }
+    .post-container {
+        display: block;
+    }
+    .site-main {
+        flex: 0 0 100% !important;
+    }
+    .text-center-bc>.bc {
+        padding: 0 10px;
+    }
+    .form-calc {
+        display: none;
+    }
+    .cs-item-block {
+        flex: 0 100%;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+    .testimonials {
+        padding-top: 0px;
+    }
+    .form-calc {
+        display: none;
+    }
+}

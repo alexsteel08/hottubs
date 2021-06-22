@@ -1,0 +1,29 @@
+.testimonials_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.testimonials-item-block {
+    flex: 0 50%;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+.testimonials_page_title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 2.6rem;
+    line-height: 1.1;
+}
+@media (max-width: 767px) {
+
+    .testimonials-item-block {
+        flex: 0 100%;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+    .testimonials {
+        padding-top: 0px;
+    }
+}

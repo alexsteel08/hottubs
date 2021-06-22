@@ -1,0 +1,5 @@
+@media only screen and (max-width: 600px) {
+    .site-main {
+        padding: 0px !important;
+    }
+}
